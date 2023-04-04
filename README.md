@@ -4,7 +4,7 @@ Glass Brige is web application built using ReactJS and NodeJS that stimulates a 
 
 ## Demo
 
-You can view a live demo of the Glass Bridge at [https://swift-chat-apps.netlify.app](https://swift-chat-apps.netlify.app)
+You can view a live demo of the Glass Bridge at [https://glass-bridge.vercel.app](https://glass-bridge.vercel.app)
 
 ## Features
 
@@ -24,7 +24,7 @@ To get started with Glass Brige, you need to have Node.js, MongoDB and npm insta
 
 Now you can access the application at `http://localhost:3000`
 
-Note: You will also need to set up the backend server for the app to work properly. Please refer to the [Glass Brige Backend](https://github.com/devmarcuz/SWIFT-Chat-App-Backend)
+Note: You will also need to set up the backend server for the app to work properly. Please refer to the [Glass Brigde Backend](https://github.com/devmarcuz/Glass-Bridge-Backend)
 
 ## Technologies
 
