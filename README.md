@@ -2,6 +2,10 @@
 
 Glass Brige is web application built using ReactJS and NodeJS that stimulates a glass brige over a beautiful valley. The user can interact with the brige by guessing which part of the glass brige is safe to walk on, unless the users falls and game over, experiencing different animations and sound effects.
 
+## Demo
+
+You can view a live demo of the Glass Bridge at [https://swift-chat-apps.netlify.app](https://swift-chat-apps.netlify.app)
+
 ## Features
 
 - Responsive design that adapts to different screen sizes.
@@ -19,6 +23,8 @@ To get started with Glass Brige, you need to have Node.js, MongoDB and npm insta
 4. Start development server. `npm start`
 
 Now you can access the application at `http://localhost:3000`
+
+Note: You will also need to set up the backend server for the app to work properly. Please refer to the [Glass Brige Backend](https://github.com/devmarcuz/SWIFT-Chat-App-Backend)
 
 ## Technologies
 
