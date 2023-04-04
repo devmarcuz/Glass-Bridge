@@ -17,7 +17,7 @@ You can view a live demo of the Glass Bridge at [https://glass-bridge.vercel.app
 
 To get started with Glass Brige, you need to have Node.js, MongoDB and npm installed on your computer. Then, follow these steps:
 
-1. Clone the respository: `git clone https://github.com/devmarcuz/glass_brige.git`
+1. Clone the respository: `git clone https://github.com/devmarcuz/Glass-Bridge.git`
 2. Navigate to the project directory: `cd glass_bridge`
 3. Install dependencies: `npm install`
 4. Start development server. `npm start`
