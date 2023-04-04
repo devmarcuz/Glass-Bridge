@@ -1,13 +1,19 @@
 import axios from "axios";
 
 export const saveRequest = async (username) => {
-  const res = await axios.post("http://localhost:5000/api/users/add-user", { username: username });
+  const res = await axios.post(
+    "https://glass-bridge-api.onrender.com/api/users/add-user",
+    { username: username }
+  );
   return res;
 };
 
 export const updateUser = async (count, id) => {
   try {
-    const res = await axios.put(`http://localhost:5000/api/users/update-user/${id}`, { ended: count });
+    const res = await axios.put(
+      `https://glass-bridge-api.onrender.com/api/users/update-user/${id}`,
+      { ended: count }
+    );
     return res;
   } catch (err) {
     console.log(err);
@@ -15,7 +21,9 @@ export const updateUser = async (count, id) => {
 };
 
 export const getUsers = async () => {
-  const res = await axios.get("http://localhost:5000/api/users/all");
+  const res = await axios.get(
+    "https://glass-bridge-api.onrender.com/api/users/all"
+  );
   return res;
 };
 
